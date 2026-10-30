@@ -13,6 +13,10 @@ To install Svalboard QMK by hand, from any firmware including Vial, follow [Inst
 
 For Vial firmware, see [Vial firmware](/vial/).
 
+:::note[Available from x3]
+From the x3 prerelease, Keybard installs firmware for you and puts your layout back. The first install of x3 is by hand, once. See [Update firmware from Keybard](/keybard/#update-firmware-from-keybard).
+:::
+
 ## What's new compared with Vial
 
 Svalboard QMK is the current firmware, `svalboard/qmk`. Get the [latest release](https://github.com/svalboard/qmk/releases), and configure it with [Keybard](/keybard/) in Chrome or Edge.
