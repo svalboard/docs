@@ -339,6 +339,16 @@ In the slicer preview, check that the first layer over each slot bridges the sho
 
 ![Close-up of the two thumb slots on the left plate at the first bridge layer, from the top and from below. With automatic bridging, the blue bridge lines cross each dashed opening the short way. An arrow marks that bridges run the short way.](../../../assets/build/print-baseplate-bridge-thumb-slot.webp)
 
+#### Prevent drooping 'overhang walls'
+
+If you have the bridges aligned as explained above but still get some lines drooping down into the slots, this might be because of overhang walls. In this image, the light blue lines are bridge lines, and the drak blue lines are 'overhang walls', i.e., walls that are printed without anything below them. By default, e.g. OrcaSlicer will print these before the bridges, thus the part in the green rectangle will probably droop down and block your slot:
+
+![Slicer view of the index finger cluster of the left base plate. The slot is bridged by light blue bridge lines, and dark blue overhang walls.](../../../assets/build/print-baseplate-overhang.webp)
+
+If you use OrcaSlicer, you can prevent this by setting the setting **Bridge counterbore holes** (under **Quality** -> **Bridging**) to `Partially bridged`. With this setting, OrcaSlicer should attempt to print a level of bridges below overhang walls, resulting in this:
+
+![Slicer view of the index finger cluster of the left base plate. The slot is bridged by light blue bridge lines, there are no dark blue overhang walls.](../../../assets/build/print-baseplate-bridge-counterbore-holes.webp)
+
 ### Palm rests and carriers
 
 - Print every palm rest part with 6 walls for strength.
