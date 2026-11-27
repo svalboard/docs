@@ -407,7 +407,7 @@ Use `.svil` files for your backups. **Export Layout** and **Import Layout** are 
 5. In Manual Updates, choose **Stage import**, check the pending edits, then apply them. In Live Updating, **Apply import** writes the changes. Offline, **Open layout** replaces the current draft.
 6. Test the important keys before relying on them.
 
-A `.svil` restores the keymap, macros, tap dances, combos, overrides, alt-repeat keys and leader sequences; QMK and pointing settings Keybard supports; layer colors; layer, macro and tap-dance names; and hardware positions.
+A `.svil` restores the keymap, macros, tap dances, combos, overrides, alt-repeat keys and leader sequences; App Layers rules; QMK and pointing settings Keybard supports; layer colors; layer, macro and tap-dance names; and hardware positions.
 
 It is not a full device image. The review lists settings it can't restore. Entries beyond those in the file stay on the board. The board's USB name and its saved default layer are separate settings: check them after restoring.
 
@@ -573,6 +573,12 @@ Alternate repeat sends a different key depending on the key you typed last. To t
 :::caution
 Alternate repeat has known firmware defects with modifier matching and **Default to alternate**. Test custom mappings before relying on them, especially with modifiers.
 :::
+
+### App Layers
+
+**More** → **App Layers**.
+
+App Layers changes your layers while a given program or website is in front, such as a CAD layer while Onshape is open. The rules live on the keyboard, and Keybard Overlay tells the keyboard which app is in front. See [App Layers](/keybard/app-layers/).
 
 ## Pointing devices
 
@@ -795,7 +801,7 @@ A printout is a reference card, not a backup. Export a `.svil` as well.
 
 **Keybard Overlay** is a small desktop app that shows your layout above your other windows. It follows the layer you are on, so you can glance at it while you type in any app.
 
-It only reads the keyboard. It never changes your layout or flashes firmware. It keeps its own settings.
+It never changes your layout or flashes firmware. It keeps its own settings. On firmware with [App Layers](/keybard/app-layers/), it also tells the keyboard which app is in front, so your App Layers rules can apply.
 
 In Keybard, **Overlay** in the left navigation (below **Layouts**) opens a small dialog. It offers the download and connects Keybard to the overlay app.
 

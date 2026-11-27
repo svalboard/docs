@@ -125,6 +125,7 @@ const keybardJumps = [
 	{ label: "Layer lights and brightness", link: '/keybard/#layer-lights-and-brightness' },
 	{ label: "Backups and files", link: '/keybard/#backups-and-files' },
 	{ label: "Behaviors", link: '/keybard/#behaviors' },
+	{ label: "App Layers", link: '/keybard/app-layers/' },
 	{ label: "Pointing devices", link: '/keybard/#pointing-devices' },
 	{ label: "Touchpad", link: '/keybard/touchpad/' },
 	{ label: "Settings and checks", link: '/keybard/#settings-and-checks' },
