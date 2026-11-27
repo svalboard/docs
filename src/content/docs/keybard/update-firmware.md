@@ -37,7 +37,7 @@ Choose **Update to x4.1** on the Firmware card. Keybard opens **Install x4.1 by 
 2. **Firmware file**: download the file. One file is for both halves.
 3. **Install**, keeping the split cable connected. Keybard starts with the half you don't usually plug in:
    1. Plug the USB cable into that half's **U** port.
-   2. Press its **RESET** button twice, about a quarter of a second apart. Too fast and nothing happens. A drive named **RPI-RP2** opens.
+   2. Press its **RESET** button twice within 0.6 seconds. A drive named **RPI-RP2** opens.
    3. Drag the file onto the drive. The half restarts and the drive closes.
    4. Then the other half: move the USB cable to its **U** port, press its **RESET** button twice, and drag the same file onto the drive.
    5. Within a few seconds of the second install, the halves show a rainbow while they work, then both flash green twice, about half a minute after the drive closed.
@@ -238,6 +238,6 @@ Each message says what happened to your keyboard and offers the next step.
 | **This Keybard can't configure this firmware** | Choose **Reload** to get a newer Keybard. |
 | **Linux blocked the keyboard** | Choose **Copy command**, run it, then choose **Reconnect**. See [Linux: the udev rule](/firmware/#linux-the-udev-rule). |
 
-If a half won't start at all, you can always install by hand: press its **RESET** button twice, about a quarter of a second apart, and drag the firmware file onto the **RPI-RP2** drive. See [Recovery](/firmware/#recovery).
+If a half won't start at all, you can always install by hand: press its **RESET** button twice within 0.6 seconds, and drag the firmware file onto the **RPI-RP2** drive. See [Recovery](/firmware/#recovery).
 
 Still stuck? Open a ticket in #customer-service on the [Svalboard Discord](https://www.svalboard.com/discord).
