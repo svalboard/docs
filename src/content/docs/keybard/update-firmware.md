@@ -171,6 +171,7 @@ This is why Keybard saves your layout before every install. With **Restore my la
 
 - the keymap on every layer
 - macros, combos, tap dances, key overrides, alternate repeat keys and leader sequences
+- [App Layers](/keybard/app-layers/) rules
 - QMK settings
 - layer colors and pointing settings, such as DPI, scrolling and Auto Mouse
 - layer, macro and tap dance names
